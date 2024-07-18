@@ -5,7 +5,7 @@
 
 struct CustomRotarySlider : juce::Slider
 {
-    CustomRotarySlider() : juce::Slider(juce::Slider::SliderStyle::Rotary,
+    CustomRotarySlider() : juce::Slider(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag,
                                         juce::Slider::TextEntryBoxPosition::NoTextBox)
     {
     }
